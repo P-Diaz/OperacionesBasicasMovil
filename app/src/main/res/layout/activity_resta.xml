@@ -12,7 +12,7 @@
         android:layout_height="52dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="264dp"
-        android:onClick="CalcularSuma"
+        android:onClick="CalcularResta"
         android:text="Restar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
