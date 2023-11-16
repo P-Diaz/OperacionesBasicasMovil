@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Suma extends AppCompatActivity {
     EditText edNumero1, edNumero2;
     TextView tvResultado;
     @Override
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void CalcularSuma(View v){
         double num1 = Double.parseDouble(edNumero1.getText().toString());
-        int num2 = Integer.parseInt(edNumero2.getText().toString());
+        double num2 = Double.parseDouble(edNumero2.getText().toString());
         double resultado = num1 + num2;
         tvResultado.setText(resultado+"");
     }
