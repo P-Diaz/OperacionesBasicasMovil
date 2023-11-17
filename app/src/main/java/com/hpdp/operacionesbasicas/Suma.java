@@ -16,7 +16,7 @@ public class Suma extends AppCompatActivity {
         setContentView(R.layout.activity_suma);
         edNumero1 = findViewById(R.id.txtNumero1);
         edNumero2 = findViewById(R.id.txtNumero2);
-        tvResultado = findViewById(R.id.lblResultado);
+        tvResultado = findViewById(R.id.lblResultadoSuma);
     }
 
     public void CalcularSuma(View v){
